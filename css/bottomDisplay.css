@@ -1,0 +1,44 @@
+div#bottom_display {
+    position: fixed;
+    left: 6vw;
+    bottom: 6vh;
+}
+
+div.description{
+    font-size: 6.5em;
+    background-color: #DEDEDE;
+    font-weight: bold;
+    padding: 2px 24px;
+    width: 100vw;
+}
+
+div#current_time{
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px 11px;
+    float: left;
+}
+
+span.colon_blinker{
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% { visibility: hidden; }
+    10% { visibility: hidden;}
+}
+
+marquee#ticker{
+    background-color: yellow;
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 10px 11px;
+    float: left;
+    width: 84%;
+    overflow: hidden;
+    height: 59px;
+}
